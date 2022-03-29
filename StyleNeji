@@ -1,13 +1,1 @@
-local args = {
-    [1] = "Trainer",
-    [2] = "BaGuaZhang"
-}
-
-game:GetService("ReplicatedStorage").RemoteEvent:FireServer(unpack(args))
-
-local plr = game:GetService("Players").LocalPlayer
-if plr:IsInGroup("4409849") then
-    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 250
-    else
-    plr:Kick("Ur not Whitelisted Idiot!")
-end
+loadstring(game:HttpGet("https://github.com/jeangaf/Tatakai-Script-Neji/blob/main/StyleNeji))()
